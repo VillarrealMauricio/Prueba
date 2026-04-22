@@ -1,25 +1,141 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Primera Pagina</title>
-    </head>
-    <body>
-        <h1>INTENTO DE PRIMERA PAGINA</h1>
-        <h2>Aqui abajo tiene una pequeña descripcion</h2>
-            <p>Esto es mi primera pagina web la cual esta hecha usando html por primera vez</p>
-        <h2>Aqui abajo van a tener una lista ordenada y una lista desordenada</h2>
-            <ol>
-                <li><a href="https://www.youtube.com/watch?v=iZzCrRd-bn0">Luther Kendrick Lamar</a></li>
-                <li><a href="https://www.youtube.com/watch?v=suHwysPX63Q">Recuerdame Kid Voodoo</a></li>
-                <li><a href="https://youtu.be/bDfdgmSLkIU?si=CTbYDK1A_-EuS5tX">Perdamonos Kid Voodoo</a></li>
-            </ol>
-            <ul>
-                <li><a href="https://virtual.unju.edu.ar/">Pagina Facultad</a></li>
-                <li><a href="https://www.youtube.com/@JulesPK1604">Mi canal YT</a></li>
-                <li><a href="https://www.tiktok.com/@julespk1604">Mi Tiktok</a></li>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="perfil.html">Perfil</a>
+        </nav>
+        <div class="header-content">
+            <h1 id="titulo-h1">Gestión de Proyectos y Trabajos UNJUPROYECT</h1>
+            <div class="proyecto-info">
+                <p>Optimice su flujo de trabajo con nuestra plataforma centralizada de seguimiento académico.</p>
+                <p>Manejado por el Grupo 16 • Cátedra de APU.</p>
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+
+        <section class="seccion-sobre">
+            <h2 class="seccion-titulo">¿Qué es UNJUPROYECT?</h2>
+            <p class="sobre-descripcion">
+                UNJUPROYECT es una plataforma de gestión académica desarrollada por el <strong>Grupo 16</strong>
+                de la Cátedra de APU. Su objetivo es centralizar el seguimiento de proyectos, facilitar
+                la organización del equipo y mantener a todos los integrantes informados del estado actual
+                de cada trabajo.
+            </p>
+            <div class="sobre-datos">
+                <div class="sobre-dato">
+                    <span class="sobre-icono">🎓</span>
+                    <span class="sobre-texto">Cátedra de APU — 2026</span>
+                </div>
+                <div class="sobre-dato">
+                    <span class="sobre-icono">👥</span>
+                    <span class="sobre-texto">Grupo 16 — 5 integrantes</span>
+                </div>
+                <div class="sobre-dato">
+                    <span class="sobre-icono">🏫</span>
+                    <span class="sobre-texto">Universidad Nacional de Jujuy</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de estadísticas -->
+        <section class="seccion-estadisticas">
+            <h2 class="seccion-titulo">Estadísticas</h2>
+            <div class="tarjetas-grid">
+                <article class="tarjeta-stat">
+                    <span class="stat-icono">📋</span>
+                    <span class="stat-numero">5</span>
+                    <span class="stat-etiqueta">Tareas Pendientes</span>
+                </article>
+                <article class="tarjeta-stat">
+                    <span class="stat-icono">🔔</span>
+                    <span class="stat-numero">3</span>
+                    <span class="stat-etiqueta">Novedades Nuevas</span>
+                </article>
+                <article class="tarjeta-stat">
+                    <span class="stat-icono">✅</span>
+                    <span class="stat-numero">2</span>
+                    <span class="stat-etiqueta">Proyectos Terminados</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de novedades -->
+        <section class="seccion-novedades">
+            <h2 class="seccion-titulo">Novedades</h2>
+            <ul class="lista-novedades">
+                <li class="novedad-item">Se finalizaron los proyectos pendientes</li>
+                <li class="novedad-item">Noel finalizó el apartado "Mi perfil"</li>
+                <li class="novedad-item">Se realizaron cambios en el archivo "detalles" con el fin de tener un mejor entorno</li>
             </ul>
-            <a href="Pagina_Pokemon.html">Pagina Pokemon</a>
-            <img src="Logo_Jules.jpg" alt="Logo Canal">
-            <a href="Pagina_Terraria.html">Pagina Terraria</a>
-    </body>
+        </section>
+
+        <!-- Sección sobre el proyecto -->
+        
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>UNJUPROYECT</h4>
+                <p>Plataforma académica para la gestión y visualización de proyectos de Analista Programador Universitario.</p>
+            </div>
+        
+            <div class="footer-section">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="proyectos.html">Explorador</a></li>
+                    <li><a href="perfil.html">Mi Perfil</a></li>
+                </ul>
+            </div>
+        
+            <div class="footer-section">
+                <h4>Desarrollo</h4>
+                <p>Grupo 16 • Cátedra de APU</p>
+                <p>UNJU</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" class="icon-link" title="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="icon-link" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="icon-link" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="icon-link" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gestión de Proyectos Educativos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
 </html>

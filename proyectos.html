@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Proyectos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <style>
+        #titulo-h1 {
+            color: #ffffff;
+            font-size: 3.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+    
+            border-bottom: 4px dashed rgba(255, 255, 255, 0.4); 
+    
+            text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+        </style>
+</head>
+
+<body>
+
+    <!-- Encabezado del sitio -->
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="perfil.html">Perfil</a>
+        </nav>
+        <div class="header-content">
+            <h1 id="titulo-h1">Explorador de Proyectos</h1>
+            <div class="proyecto-info">
+                <p>Visualice el progreso, las categorías y el estado de las iniciativas en tiempo real.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+
+    <main>
+        <h2>Explorador de Proyectos</h2>
+
+        <!-- Barra de Filtros -->
+
+        <aside class="filtros">
+    <h3>Filtrar Proyectos</h3>
+    <form>
+        <div class="filtros">
+            <label>Categoría:</label>
+            <select>
+                <option value="">Todas</option>
+                <option value="">Aplicaciones Web</option>
+                <option value="">Juego</option>
+            </select>
+        </div>
+
+        <div class="filtros">
+            <label>Año:</label>
+            <select>
+                <option value="">Todos</option>
+                <option value="">2023</option>
+                <option value="">2024</option>
+                <option value="">2025</option>
+            </select>
+        </div>
+
+        <div class="filtros">
+            <label>Estado:</label>
+            <select>
+                <option value="">Todos</option>
+                <option value="">En curso</option>
+                <option value="">Finalizado</option>
+            </select>
+        </div>
+    </form>
+</aside>
+
+        <!-- Listado de Proyectos -->
+        <section class="proyectos">
+            <h2>Listado de Proyectos</h2>
+
+            <article class="proyecto">
+                <h3 class="titulo-proyecto">Proyecto 1: <u><em>Open Market</em></u></h3>
+                <img src="img/OpenMarket logo_4.png" alt="Imagen del logo del proyecto Open Market" width="150">
+                <p>
+                    Open Market es un proyecto de <strong>e-commerce</strong>
+                    creado con <em>JavaScript, HTML y CSS</em>,
+                    enfocado en la visualización de productos y la interacción del usuario.
+                </p>
+                <p><strong>Categoría:</strong> Aplicaciones Web</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article class="proyecto">
+                <h3 class="titulo-proyecto">Proyecto 2: <u><em>Mercado Liebre</em></u></h3>
+                <img src="img/logo-mercado-liebre.svg" alt="Imagen del logo del proyecto Mercado Liebre" width="150">
+                <p>
+                    El proyecto Mercado Liebre es una simulación
+                    de un e-commerce inspirada en <strong>Mercado Libre</strong> creado con
+                    <em>HTML</em>, centrada en la maquetación y organización del contenido.
+                </p>
+                <p><strong>Categoría:</strong> Aplicaciones Web</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article class="proyecto">
+                <h3 class="titulo-proyecto">Proyecto 3: <u><em>App de Películas</em></u></h3>
+                <img src="img/favicon.ico" alt="Imagen del logo del proyecto App de Peliculas">
+                <p>
+                    Aplicación web desarrollada con <em>React</em> que permite buscar y
+                    visualizar
+                    información de películas mediante el consumo de APIs externas.
+                </p>
+                <p><strong>Categoría:</strong> Aplicaciones Web</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article class="proyecto">
+                <h3 class="titulo-proyecto">Proyecto 4: <u><em>Aplicación de Clima</em></u></h3>
+                <img src="img/clima.ico" alt="Imagen del logo del proyecto Aplicación de clima">
+                <p>
+                    Aplicación web desarrollada con <em>React</em> que permite buscar y
+                    visualizar el clima de distintas ciudades mediante el consumo de APIs externas.
+                </p>
+                <p><strong>Categoría:</strong> Aplicaciones Web</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article class="proyecto">
+                <h3 class="titulo-proyecto">Proyecto 5: <u><em>Espejo Mágico</em></u></h3>
+                <img class="espejo" src="img/icons8-espejo-96.ico" alt="Imagen de un espejo">
+                <p>
+                    Espejo Mágico es un juego de consola desarrollado en <em>C++</em>,
+                    donde el jugador debe adivinar palabras generadas aleatoriamente para ganar la partida.
+                </p>
+                <p><strong>Categoría:</strong> Juego</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>UNJUPROYECT</h4>
+                <p>Plataforma académica para la gestión y visualización de proyectos de Analista Programador Universitario.</p>
+            </div>
+        
+            <div class="footer-section">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="proyectos.html">Explorador</a></li>
+                    <li><a href="perfil.html">Mi Perfil</a></li>
+                </ul>
+            </div>
+        
+            <div class="footer-section">
+                <h4>Desarrollo</h4>
+                <p>Grupo 16 • Cátedra de APU</p>
+                <p>UNJU</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" class="icon-link" title="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="icon-link" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="icon-link" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="icon-link" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gestión de Proyectos Educativos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
